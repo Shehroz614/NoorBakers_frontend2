@@ -141,7 +141,7 @@ export default function Contact() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Have a question or special request? We'd love to hear from you.
+            Have a question or special request? We&apos;d love to hear from you.
           </motion.p>
         </div>
       </section>

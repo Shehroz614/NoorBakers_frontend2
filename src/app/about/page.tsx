@@ -84,14 +84,14 @@ export default function About() {
               />
             </div>
             <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Our Founder's Vision</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Our Founder&apos;s Vision</h3>
               <p className="text-gray-600 mb-6">
                 Founded by Master Baker Sarah Noor, our bakery began with a simple yet powerful vision:
                 to create bread that not only nourishes the body but also brings joy to the soul.
               </p>
               <p className="text-gray-600">
                 Drawing from generations of baking tradition and combining it with modern techniques,
-                we've created a unique experience that keeps our customers coming back for more.
+                we&apos;ve created a unique experience that keeps our customers coming back for more.
               </p>
             </div>
           </motion.div>
@@ -122,11 +122,11 @@ export default function About() {
               },
               {
                 title: 'Community Focus',
-                description: "We're more than a bakery - we're a gathering place for the community, creating moments of joy."
+                description: "We&apos;re more than a bakery - we&apos;re a gathering place for the community, creating moments of joy."
               },
               {
                 title: 'Sustainable Practices',
-                description: "We're committed to environmentally conscious baking, using local ingredients and eco-friendly packaging."
+                description: "We&apos;re committed to environmentally conscious baking, using local ingredients and eco-friendly packaging."
               }
             ].map((value) => (
               <motion.div

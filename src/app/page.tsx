@@ -4,21 +4,6 @@ import React, { useEffect } from 'react';
 import { motion, useAnimation, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from './components/Footer';
-
-const fadeIn = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6 }
-};
-
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.2
-    }
-  }
-};
 
 const categories = [
   {
@@ -95,13 +80,13 @@ const reviews = [
   {
     name: 'Sarah Johnson',
     role: 'Food Blogger',
-    comment: "The best sourdough I've ever tasted. The texture and flavor are absolutely perfect!",
+    comment: "The best sourdough I&apos;ve ever tasted. The texture and flavor are absolutely perfect!",
     image: 'https://picsum.photos/seed/reviewer-1/200/200'
   },
   {
     name: 'Michael Chen',
     role: 'Local Resident',
-    comment: "Their croissants are better than what I've had in Paris. Simply magnificent!",
+    comment: "Their croissants are better than what I&apos;ve had in Paris. Simply magnificent!",
     image: 'https://picsum.photos/seed/reviewer-2/200/200'
   },
   {
@@ -386,7 +371,7 @@ export default function Home() {
               What Our Customers Say
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it - hear from our satisfied customers.
+              Don&apos;t just take our word for it - hear from our satisfied customers.
             </p>
           </motion.div>
 
@@ -449,8 +434,8 @@ export default function Home() {
               Experience the Art of Baking
             </h2>
             <p className="text-xl text-gray-200 mb-12">
-              Visit us today and discover why we're more than just a bakery -
-              we're a destination for food lovers.
+              Visit us today and discover why we&apos;re more than just a bakery -
+              we&apos;re a destination for food lovers.
             </p>
             <motion.div
               className="flex flex-col sm:flex-row gap-6 justify-center"

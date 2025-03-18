@@ -100,12 +100,6 @@ const services = [
   }
 ];
 
-const fadeInUp = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 }
-};
-
 export default function Services() {
   const { scrollY } = useScroll();
   const [selectedService, setSelectedService] = useState(services[0]);
@@ -357,7 +351,7 @@ export default function Services() {
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">What Our Clients Say</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Don't just take our word for it - hear from our satisfied customers.
+              Don&apos;t just take our word for it - hear from our satisfied customers.
             </p>
           </motion.div>
 
